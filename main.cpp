@@ -19,9 +19,9 @@ int minElement(int* first_elem, int* last_elem)
     for (auto i = 0; i < *last_elem; i++)
     {
        if (min > *(first_elem + i))
-        {
+       {
           min = *(first_elem + i);
-        }
+       }
     }
     std::cout << min << std::endl;
 }
