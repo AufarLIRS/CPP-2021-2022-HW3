@@ -3,7 +3,7 @@
 #include <string>
 
 int minElement(int* array, int size)
-{
+{   
     int min = 6;
     for (auto i = 0; i < size; i++)
     {
