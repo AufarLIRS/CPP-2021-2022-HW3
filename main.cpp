@@ -1,7 +1,4 @@
 #include <iostream>
-#include <string>
-#include <utility>
-// #include <ctime>
 #include <chrono>
 #include <iomanip>
 
@@ -72,7 +69,7 @@ void rotate (int* first_elem, int* last_elem) // 3 task
         dop_num = *last_elem;
         *last_elem = *elem;
         *elem = dop_num;
-        if (*last_elem == *elem)
+        if (*last_elem == *elem) // это для нечетных массивов
         {
             break;
         }
@@ -130,7 +127,7 @@ int main()
     // }
 
 
-\
+
 
 }
 
