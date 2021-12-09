@@ -16,7 +16,7 @@ int minElement(int* array, int size)
 int minElement(int* first_elem, int* last_elem)
 {
     int min = *first_elem;
-    for (auto i = 0; i < *last_elem; i++)
+    for (auto i = 0; i <= *last_elem; i++)
     {
        if (min > *(first_elem + i))
        {
